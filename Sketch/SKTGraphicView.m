@@ -881,26 +881,26 @@ A person who assumes that a -set... method always succeeds, and always sets the 
 	NSPoint currentMouseLocation = [self convertPoint:[event locationInWindow] fromView:nil];
 
 	// Figure out a new a selection rectangle based on the mouse location.
-	NSRect newMarqueeSelectionBounds = NSMakeRect(fmin(originalMouseLocation.x, currentMouseLocation.x), fmin(originalMouseLocation.y, currentMouseLocation.y), fabs(currentMouseLocation.x - originalMouseLocation.x), fabs(currentMouseLocation.y - originalMouseLocation.y));
-	if (!NSEqualRects(newMarqueeSelectionBounds, _marqueeSelectionBounds)) {
-
-	    // Erase the old selection rectangle and draw the new one.
-	    [self setNeedsDisplayInRect:_marqueeSelectionBounds];
-	    _marqueeSelectionBounds = newMarqueeSelectionBounds;
-	    [self setNeedsDisplayInRect:_marqueeSelectionBounds];
-
-	    // Either select or deselect all of the graphics that intersect the selection rectangle.
-	    NSIndexSet *indexesOfGraphicsInRubberBand = [self indexesOfGraphicsIntersectingRect:_marqueeSelectionBounds];
-	    NSMutableIndexSet *newSelectionIndexes = [oldSelectionIndexes mutableCopy];
-	    for (NSUInteger index = [indexesOfGraphicsInRubberBand firstIndex]; index!=NSNotFound; index = [indexesOfGraphicsInRubberBand indexGreaterThanIndex:index]) {
-		if ([newSelectionIndexes containsIndex:index]) {
-		    [newSelectionIndexes removeIndex:index];
-		} else {
-		    [newSelectionIndexes addIndex:index];
-		}
-	    }
-	    [self changeSelectionIndexes:newSelectionIndexes];
-	    [newSelectionIndexes release];
+		NSRect newMarqueeSelectionBounds = NSMakeRect(fmin(originalMouseLocation.x, currentMouseLocation.x), fmin(originalMouseLocation.y, currentMouseLocation.y), fabs(currentMouseLocation.x - originalMouseLocation.x), fabs(currentMouseLocation.y - originalMouseLocation.y));
+		if (!NSEqualRects(newMarqueeSelectionBounds, _marqueeSelectionBounds)) {
+			
+			// Erase the old selection rectangle and draw the new one.
+			[self setNeedsDisplayInRect:_marqueeSelectionBounds];
+			_marqueeSelectionBounds = newMarqueeSelectionBounds;
+			[self setNeedsDisplayInRect:_marqueeSelectionBounds];
+			
+			// Either select or deselect all of the graphics that intersect the selection rectangle.
+			NSIndexSet *indexesOfGraphicsInRubberBand = [self indexesOfGraphicsIntersectingRect:_marqueeSelectionBounds];
+			NSMutableIndexSet *newSelectionIndexes = [oldSelectionIndexes mutableCopy];
+			for (NSUInteger index = [indexesOfGraphicsInRubberBand firstIndex]; index!=NSNotFound; index = [indexesOfGraphicsInRubberBand indexGreaterThanIndex:index]) {
+				if ([newSelectionIndexes containsIndex:index]) {
+					[newSelectionIndexes removeIndex:index];
+				} else {
+					[newSelectionIndexes addIndex:index];
+				}
+			}
+			[self changeSelectionIndexes:newSelectionIndexes];
+			[newSelectionIndexes release];
 
 	}
     }
