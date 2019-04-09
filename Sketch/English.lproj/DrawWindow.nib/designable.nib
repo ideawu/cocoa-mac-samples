@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
+	<data>
+		<int key="IBDocument.SystemTarget">1040</int>
+		<string key="IBDocument.InterfaceBuilderVersion">14490.70</string>
+		<string key="IBDocument.AppKitVersion">1671.20.108</string>
+		<string key="IBDocument.HIToolboxVersion">917.30</string>
+		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
+			<string key="NS.object.0">14490.70</string>
+		</object>
+		<array key="IBDocument.IntegratedClassDependencies">
+			<string>NSArrayController</string>
+			<string>NSCustomObject</string>
+			<string>NSCustomView</string>
+			<string>NSScrollView</string>
+			<string>NSScroller</string>
+			<string>NSView</string>
+			<string>NSWindowTemplate</string>
+		</array>
+		<array key="IBDocument.PluginDependencies">
+			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+		</array>
+		<dictionary class="NSMutableDictionary" key="IBDocument.Metadata"/>
+		<array class="NSMutableArray" key="IBDocument.RootObjects" id="183719941">
+			<object class="NSCustomObject" id="693046328">
+				<string key="NSClassName">SKTWindowController</string>
+			</object>
+			<object class="NSCustomObject" id="133361886">
+				<string key="NSClassName">FirstResponder</string>
+			</object>
+			<object class="NSCustomObject" id="748645045">
+				<string key="NSClassName">NSApplication</string>
+			</object>
+			<object class="NSWindowTemplate" id="536597668">
+				<int key="NSWindowStyleMask">15</int>
+				<int key="NSWindowBacking">2</int>
+				<string key="NSWindowRect">{{52, 348}, {483, 627}}</string>
+				<int key="NSWTFlags">1613234176</int>
+				<string key="NSWindowTitle">Window</string>
+				<string key="NSWindowClass">NSWindow</string>
+				<string key="NSViewClass">View</string>
+				<nil key="NSUserInterfaceItemIdentifier"/>
+				<object class="NSView" key="NSWindowView" id="1018135136">
+					<reference key="NSNextResponder"/>
+					<nil key="NSNibTouchBar"/>
+					<int key="NSvFlags">256</int>
+					<array class="NSMutableArray" key="NSSubviews">
+						<object class="NSScrollView" id="1033521333">
+							<reference key="NSNextResponder" ref="1018135136"/>
+							<nil key="NSNibTouchBar"/>
+							<int key="NSvFlags">274</int>
+							<array class="NSMutableArray" key="NSSubviews">
+								<object class="NSClipView" id="732081090">
+									<reference key="NSNextResponder" ref="1033521333"/>
+									<nil key="NSNibTouchBar"/>
+									<int key="NSvFlags">274</int>
+									<array class="NSMutableArray" key="NSSubviews">
+										<object class="NSCustomView" id="1037648921">
+											<reference key="NSNextResponder" ref="732081090"/>
+											<nil key="NSNibTouchBar"/>
+											<int key="NSvFlags">256</int>
+											<string key="NSFrameSize">{468, 612}</string>
+											<reference key="NSSuperview" ref="732081090"/>
+											<string key="NSClassName">SKTGraphicView</string>
+											<string key="NSExtension">NSView</string>
+										</object>
+									</array>
+									<string key="NSFrameSize">{468, 612}</string>
+									<reference key="NSSuperview" ref="1033521333"/>
+									<reference key="NSNextKeyView" ref="1037648921"/>
+									<reference key="NSDocView" ref="1037648921"/>
+									<object class="NSColor" key="NSBGColor">
+										<int key="NSColorSpace">6</int>
+										<string key="NSCatalogName">System</string>
+										<string key="NSColorName">controlColor</string>
+										<object class="NSColor" key="NSColor">
+											<int key="NSColorSpace">3</int>
+											<bytes key="NSWhite">MC42MDI3MTUzNzMAA</bytes>
+											<object class="NSColorSpace" key="NSCustomColorSpace">
+												<int key="NSID">9</int>
+												<int key="NSModel">0</int>
+												<object class="NSMutableData" key="NSICC">
+													<bytes key="NS.bytes">AAARaGFwcGwCAAAAbW50ckdSQVlYWVogB9wACAAXAA8ALgAPYWNzcEFQUEwAAAAAbm9uZQAAAAAAAAAA
+AAAAAAAAAAAAAPbWAAEAAAAA0y1hcHBsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAFZGVzYwAAAMAAAAB5ZHNjbQAAATwAAAfoY3BydAAACSQAAAAjd3RwdAAACUgAAAAU
+a1RSQwAACVwAAAgMZGVzYwAAAAAAAAAfR2VuZXJpYyBHcmF5IEdhbW1hIDIuMiBQcm9maWxlAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAG1sdWMAAAAAAAAAHwAAAAxza1NLAAAALgAAAYRkYURLAAAAOAAAAbJjYUVT
+AAAAOAAAAep2aVZOAAAAQAAAAiJwdEJSAAAASgAAAmJ1a1VBAAAALAAAAqxmckZVAAAAPgAAAthodUhV
+AAAANAAAAxZ6aFRXAAAAHgAAA0puYk5PAAAAOgAAA2hjc0NaAAAAKAAAA6JoZUlMAAAAJAAAA8ppdElU
+AAAATgAAA+5yb1JPAAAAKgAABDxkZURFAAAATgAABGZrb0tSAAAAIgAABLRzdlNFAAAAOAAAAbJ6aENO
+AAAAHgAABNZqYUpQAAAAJgAABPRlbEdSAAAAKgAABRpwdFBPAAAAUgAABURubE5MAAAAQAAABZZlc0VT
+AAAATAAABdZ0aFRIAAAAMgAABiJ0clRSAAAAJAAABlRmaUZJAAAARgAABnhockhSAAAAPgAABr5wbFBM
+AAAASgAABvxydVJVAAAAOgAAB0ZlblVTAAAAPAAAB4BhckVHAAAALAAAB7wAVgFhAGUAbwBiAGUAYwBu
+AOEAIABzAGkAdgDhACAAZwBhAG0AYQAgADIALAAyAEcAZQBuAGUAcgBpAHMAawAgAGcAcgDlACAAMgAs
+ADIAIABnAGEAbQBtAGEAcAByAG8AZgBpAGwARwBhAG0AbQBhACAAZABlACAAZwByAGkAcwBvAHMAIABn
+AGUAbgDoAHIAaQBjAGEAIAAyAC4AMgBDHqUAdQAgAGgA7ABuAGgAIABNAOAAdQAgAHgA4QBtACAAQwBo
+AHUAbgBnACAARwBhAG0AbQBhACAAMgAuADIAUABlAHIAZgBpAGwAIABHAGUAbgDpAHIAaQBjAG8AIABk
+AGEAIABHAGEAbQBhACAAZABlACAAQwBpAG4AegBhAHMAIAAyACwAMgQXBDAEMwQwBDsETAQ9BDAAIABH
+AHIAYQB5AC0EMwQwBDwEMAAgADIALgAyAFAAcgBvAGYAaQBsACAAZwDpAG4A6QByAGkAcQB1AGUAIABn
+AHIAaQBzACAAZwBhAG0AbQBhACAAMgAsADIAwQBsAHQAYQBsAOEAbgBvAHMAIABzAHoA/AByAGsAZQAg
+AGcAYQBtAG0AYQAgADIALgAykBp1KHBwlo5RSV6mACAAMgAuADIAIIJyX2ljz4/wAEcAZQBuAGUAcgBp
+AHMAawAgAGcAcgDlACAAZwBhAG0AbQBhACAAMgAsADIALQBwAHIAbwBmAGkAbABPAGIAZQBjAG4A4QAg
+AWEAZQBkAOEAIABnAGEAbQBhACAAMgAuADIF0gXQBd4F1AAgBdAF5AXVBegAIAXbBdwF3AXZACAAMgAu
+ADIAUAByAG8AZgBpAGwAbwAgAGcAcgBpAGcAaQBvACAAZwBlAG4AZQByAGkAYwBvACAAZABlAGwAbABh
+ACAAZwBhAG0AbQBhACAAMgAsADIARwBhAG0AYQAgAGcAcgBpACAAZwBlAG4AZQByAGkAYwEDACAAMgAs
+ADIAQQBsAGwAZwBlAG0AZQBpAG4AZQBzACAARwByAGEAdQBzAHQAdQBmAGUAbgAtAFAAcgBvAGYAaQBs
+ACAARwBhAG0AbQBhACAAMgAsADLHfLwYACDWjMDJACCsELnIACAAMgAuADIAINUEuFzTDMd8Zm6QGnBw
+XqZ8+2VwACAAMgAuADIAIGPPj/Blh072TgCCLDCwMOwwpDCsMPMw3gAgADIALgAyACAw1zDtMNUwoTCk
+MOsDkwO1A70DuQO6A8wAIAOTA7oDwQO5ACADkwOsA7wDvAOxACAAMgAuADIAUABlAHIAZgBpAGwAIABn
+AGUAbgDpAHIAaQBjAG8AIABkAGUAIABjAGkAbgB6AGUAbgB0AG8AcwAgAGQAYQAgAEcAYQBtAG0AYQAg
+ADIALAAyAEEAbABnAGUAbQBlAGUAbgAgAGcAcgBpAGoAcwAgAGcAYQBtAG0AYQAgADIALAAyAC0AcABy
+AG8AZgBpAGUAbABQAGUAcgBmAGkAbAAgAGcAZQBuAOkAcgBpAGMAbwAgAGQAZQAgAGcAYQBtAG0AYQAg
+AGQAZQAgAGcAcgBpAHMAZQBzACAAMgAsADIOIw4xDgcOKg41DkEOAQ4hDiEOMg5ADgEOIw4iDkwOFw4x
+DkgOJw5EDhsAIAAyAC4AMgBHAGUAbgBlAGwAIABHAHIAaQAgAEcAYQBtAGEAIAAyACwAMgBZAGwAZQBp
+AG4AZQBuACAAaABhAHIAbQBhAGEAbgAgAGcAYQBtAG0AYQAgADIALAAyACAALQBwAHIAbwBmAGkAaQBs
+AGkARwBlAG4AZQByAGkBDQBrAGkAIABHAHIAYQB5ACAARwBhAG0AbQBhACAAMgAuADIAIABwAHIAbwBm
+AGkAbABVAG4AaQB3AGUAcgBzAGEAbABuAHkAIABwAHIAbwBmAGkAbAAgAHMAegBhAHIAbwFbAGMAaQAg
+AGcAYQBtAG0AYQAgADIALAAyBB4EMQRJBDAETwAgBEEENQRABDAETwAgBDMEMAQ8BDwEMAAgADIALAAy
+AC0EPwRABD4ERAQ4BDsETABHAGUAbgBlAHIAaQBjACAARwByAGEAeQAgAEcAYQBtAG0AYQAgADIALgAy
+ACAAUAByAG8AZgBpAGwAZQY6BicGRQYnACAAMgAuADIAIAZEBkgGRgAgBjEGRQYnBi8GSgAgBjkGJwZF
+dGV4dAAAAABDb3B5cmlnaHQgQXBwbGUgSW5jLiwgMjAxMgAAWFlaIAAAAAAAAPNRAAEAAAABFsxjdXJ2
+AAAAAAAABAAAAAAFAAoADwAUABkAHgAjACgALQAyADcAOwBAAEUASgBPAFQAWQBeAGMAaABtAHIAdwB8
+AIEAhgCLAJAAlQCaAJ8ApACpAK4AsgC3ALwAwQDGAMsA0ADVANsA4ADlAOsA8AD2APsBAQEHAQ0BEwEZ
+AR8BJQErATIBOAE+AUUBTAFSAVkBYAFnAW4BdQF8AYMBiwGSAZoBoQGpAbEBuQHBAckB0QHZAeEB6QHy
+AfoCAwIMAhQCHQImAi8COAJBAksCVAJdAmcCcQJ6AoQCjgKYAqICrAK2AsECywLVAuAC6wL1AwADCwMW
+AyEDLQM4A0MDTwNaA2YDcgN+A4oDlgOiA64DugPHA9MD4APsA/kEBgQTBCAELQQ7BEgEVQRjBHEEfgSM
+BJoEqAS2BMQE0wThBPAE/gUNBRwFKwU6BUkFWAVnBXcFhgWWBaYFtQXFBdUF5QX2BgYGFgYnBjcGSAZZ
+BmoGewaMBp0GrwbABtEG4wb1BwcHGQcrBz0HTwdhB3QHhgeZB6wHvwfSB+UH+AgLCB8IMghGCFoIbgiC
+CJYIqgi+CNII5wj7CRAJJQk6CU8JZAl5CY8JpAm6Cc8J5Qn7ChEKJwo9ClQKagqBCpgKrgrFCtwK8wsL
+CyILOQtRC2kLgAuYC7ALyAvhC/kMEgwqDEMMXAx1DI4MpwzADNkM8w0NDSYNQA1aDXQNjg2pDcMN3g34
+DhMOLg5JDmQOfw6bDrYO0g7uDwkPJQ9BD14Peg+WD7MPzw/sEAkQJhBDEGEQfhCbELkQ1xD1ERMRMRFP
+EW0RjBGqEckR6BIHEiYSRRJkEoQSoxLDEuMTAxMjE0MTYxODE6QTxRPlFAYUJxRJFGoUixStFM4U8BUS
+FTQVVhV4FZsVvRXgFgMWJhZJFmwWjxayFtYW+hcdF0EXZReJF64X0hf3GBsYQBhlGIoYrxjVGPoZIBlF
+GWsZkRm3Gd0aBBoqGlEadxqeGsUa7BsUGzsbYxuKG7Ib2hwCHCocUhx7HKMczBz1HR4dRx1wHZkdwx3s
+HhYeQB5qHpQevh7pHxMfPh9pH5Qfvx/qIBUgQSBsIJggxCDwIRwhSCF1IaEhziH7IiciVSKCIq8i3SMK
+IzgjZiOUI8Ij8CQfJE0kfCSrJNolCSU4JWgllyXHJfcmJyZXJocmtyboJxgnSSd6J6sn3CgNKD8ocSii
+KNQpBik4KWspnSnQKgIqNSpoKpsqzysCKzYraSudK9EsBSw5LG4soizXLQwtQS12Last4S4WLkwugi63
+Lu4vJC9aL5Evxy/+MDUwbDCkMNsxEjFKMYIxujHyMioyYzKbMtQzDTNGM38zuDPxNCs0ZTSeNNg1EzVN
+NYc1wjX9Njc2cjauNuk3JDdgN5w31zgUOFA4jDjIOQU5Qjl/Obw5+To2OnQ6sjrvOy07azuqO+g8Jzxl
+PKQ84z0iPWE9oT3gPiA+YD6gPuA/IT9hP6I/4kAjQGRApkDnQSlBakGsQe5CMEJyQrVC90M6Q31DwEQD
+REdEikTORRJFVUWaRd5GIkZnRqtG8Ec1R3tHwEgFSEtIkUjXSR1JY0mpSfBKN0p9SsRLDEtTS5pL4kwq
+THJMuk0CTUpNk03cTiVObk63TwBPSU+TT91QJ1BxULtRBlFQUZtR5lIxUnxSx1MTU19TqlP2VEJUj1Tb
+VShVdVXCVg9WXFapVvdXRFeSV+BYL1h9WMtZGllpWbhaB1pWWqZa9VtFW5Vb5Vw1XIZc1l0nXXhdyV4a
+XmxevV8PX2Ffs2AFYFdgqmD8YU9homH1YklinGLwY0Njl2PrZEBklGTpZT1lkmXnZj1mkmboZz1nk2fp
+aD9olmjsaUNpmmnxakhqn2r3a09rp2v/bFdsr20IbWBtuW4SbmtuxG8eb3hv0XArcIZw4HE6cZVx8HJL
+cqZzAXNdc7h0FHRwdMx1KHWFdeF2Pnabdvh3VnezeBF4bnjMeSp5iXnnekZ6pXsEe2N7wnwhfIF84X1B
+faF+AX5ifsJ/I3+Ef+WAR4CogQqBa4HNgjCCkoL0g1eDuoQdhICE44VHhauGDoZyhteHO4efiASIaYjO
+iTOJmYn+imSKyoswi5aL/IxjjMqNMY2Yjf+OZo7OjzaPnpAGkG6Q1pE/kaiSEZJ6kuOTTZO2lCCUipT0
+lV+VyZY0lp+XCpd1l+CYTJi4mSSZkJn8mmia1ZtCm6+cHJyJnPedZJ3SnkCerp8dn4uf+qBpoNihR6G2
+oiailqMGo3aj5qRWpMelOKWpphqmi6b9p26n4KhSqMSpN6mpqhyqj6sCq3Wr6axcrNCtRK24ri2uoa8W
+r4uwALB1sOqxYLHWskuywrM4s660JbSctRO1irYBtnm28Ldot+C4WbjRuUq5wro7urW7LrunvCG8m70V
+vY++Cr6Evv+/er/1wHDA7MFnwePCX8Lbw1jD1MRRxM7FS8XIxkbGw8dBx7/IPci8yTrJuco4yrfLNsu2
+zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr7
+24DcBdyK3RDdlt4c3qLfKd+v4DbgveFE4cziU+Lb42Pj6+Rz5PzlhOYN5pbnH+ep6DLovOlG6dDqW+rl
+63Dr++yG7RHtnO4o7rTvQO/M8Fjw5fFy8f/yjPMZ86f0NPTC9VD13vZt9vv3ivgZ+Kj5OPnH+lf65/t3
+/Af8mP0p/br+S/7c/23//w</bytes>
+												</object>
+											</object>
+											<characters key="NSComponents">0.6666666667 1</characters>
+										</object>
+									</object>
+									<int key="NScvFlags">4</int>
+									<bool key="NSAutomaticallyAdjustsContentInsets">YES</bool>
+								</object>
+								<object class="NSScroller" id="870806035">
+									<reference key="NSNextResponder" ref="1033521333"/>
+									<nil key="NSNibTouchBar"/>
+									<int key="NSvFlags">256</int>
+									<string key="NSFrame">{{468, 0}, {15, 612}}</string>
+									<reference key="NSSuperview" ref="1033521333"/>
+									<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+									<string key="NSControlAction">_doScroller:</string>
+									<reference key="NSControlTarget" ref="1033521333"/>
+									<reference key="NSTarget" ref="1033521333"/>
+									<string key="NSAction">_doScroller:</string>
+									<double key="NSCurValue">1</double>
+									<double key="NSPercent">0.99836599826812744</double>
+								</object>
+								<object class="NSScroller" id="184309832">
+									<reference key="NSNextResponder" ref="1033521333"/>
+									<nil key="NSNibTouchBar"/>
+									<int key="NSvFlags">256</int>
+									<string key="NSFrame">{{0, 612}, {468, 15}}</string>
+									<reference key="NSSuperview" ref="1033521333"/>
+									<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
+									<string key="NSControlAction">_doScroller:</string>
+									<reference key="NSControlTarget" ref="1033521333"/>
+									<int key="NSsFlags">1</int>
+									<reference key="NSTarget" ref="1033521333"/>
+									<string key="NSAction">_doScroller:</string>
+									<double key="NSPercent">0.99786323308944702</double>
+								</object>
+							</array>
+							<string key="NSFrameSize">{483, 627}</string>
+							<reference key="NSSuperview" ref="1018135136"/>
+							<reference key="NSNextKeyView" ref="732081090"/>
+							<array key="NSGestureRecognizers">
+								<object class="NSPanGestureRecognizer">
+									<int key="NSGestureRecognizer.allowedTouchTypes">1</int>
+									<string key="NSGestureRecognizer.action">_panWithGestureRecognizer:</string>
+									<reference key="NSGestureRecognizer.target" ref="1033521333"/>
+									<int key="NSPanGestureRecognizer.buttonMask">0</int>
+									<int key="NSPanGestureRecognizer.numberOfTouchesRequired">1</int>
+								</object>
+							</array>
+							<int key="NSsFlags">133168</int>
+							<reference key="NSVScroller" ref="870806035"/>
+							<reference key="NSHScroller" ref="184309832"/>
+							<reference key="NSContentView" ref="732081090"/>
+							<double key="NSMinMagnification">0.25</double>
+							<double key="NSMaxMagnification">4</double>
+							<double key="NSMagnification">1</double>
+						</object>
+					</array>
+					<string key="NSFrameSize">{483, 627}</string>
+					<reference key="NSSuperview"/>
+				</object>
+				<string key="NSScreenRect">{{0, 0}, {1280, 1002}}</string>
+				<string key="NSMinSize">{263, 229}</string>
+				<string key="NSMaxSize">{3.4028200000000001e+38, 3.4028200000000001e+38}</string>
+				<bool key="NSWindowIsRestorable">YES</bool>
+			</object>
+			<object class="NSArrayController" id="549070809">
+				<bool key="NSEditable">YES</bool>
+				<object class="_NSManagedProxy" key="_NSManagedProxy"/>
+				<bool key="NSPreservesSelection">YES</bool>
+				<bool key="NSFilterRestrictsInsertion">YES</bool>
+				<bool key="NSClearsFilterPredicateOnInsertion">YES</bool>
+			</object>
+		</array>
+		<object class="IBObjectContainer" key="IBDocument.Objects">
+			<array key="connectionRecords">
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">_zoomingScrollView</string>
+						<reference key="source" ref="693046328"/>
+						<reference key="destination" ref="1033521333"/>
+					</object>
+					<int key="connectionID">31</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">_graphicView</string>
+						<reference key="source" ref="693046328"/>
+						<reference key="destination" ref="1037648921"/>
+					</object>
+					<int key="connectionID">25</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">window</string>
+						<reference key="source" ref="693046328"/>
+						<reference key="destination" ref="536597668"/>
+					</object>
+					<int key="connectionID">8</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">_graphicsController</string>
+						<reference key="source" ref="693046328"/>
+						<reference key="destination" ref="549070809"/>
+					</object>
+					<int key="connectionID">24</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="536597668"/>
+						<reference key="destination" ref="693046328"/>
+					</object>
+					<int key="connectionID">10</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">initialFirstResponder</string>
+						<reference key="source" ref="536597668"/>
+						<reference key="destination" ref="1037648921"/>
+					</object>
+					<int key="connectionID">30</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">contentArray: document.graphics</string>
+						<reference key="source" ref="549070809"/>
+						<reference key="destination" ref="693046328"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="549070809"/>
+							<reference key="NSDestination" ref="693046328"/>
+							<string key="NSLabel">contentArray: document.graphics</string>
+							<string key="NSBinding">contentArray</string>
+							<string key="NSKeyPath">document.graphics</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">26</int>
+				</object>
+			</array>
+			<object class="IBMutableOrderedSet" key="objectRecords">
+				<array key="orderedObjects">
+					<object class="IBObjectRecord">
+						<int key="objectID">0</int>
+						<array key="object" id="0"/>
+						<reference key="children" ref="183719941"/>
+						<nil key="parent"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">-2</int>
+						<reference key="object" ref="693046328"/>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">File's Owner</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">-1</int>
+						<reference key="object" ref="133361886"/>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">First Responder</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">-3</int>
+						<reference key="object" ref="748645045"/>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">Application</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">5</int>
+						<reference key="object" ref="536597668"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="1018135136"/>
+						</array>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">Window</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">6</int>
+						<reference key="object" ref="1018135136"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="1033521333"/>
+						</array>
+						<reference key="parent" ref="536597668"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">11</int>
+						<reference key="object" ref="1033521333"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="1037648921"/>
+							<reference ref="184309832"/>
+							<reference ref="870806035"/>
+						</array>
+						<reference key="parent" ref="1018135136"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">22</int>
+						<reference key="object" ref="1037648921"/>
+						<reference key="parent" ref="1033521333"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">23</int>
+						<reference key="object" ref="549070809"/>
+						<reference key="parent" ref="0"/>
+						<string key="objectName">Graphics Controller</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">33</int>
+						<reference key="object" ref="184309832"/>
+						<reference key="parent" ref="1033521333"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">34</int>
+						<reference key="object" ref="870806035"/>
+						<reference key="parent" ref="1033521333"/>
+					</object>
+				</array>
+			</object>
+			<dictionary class="NSMutableDictionary" key="flattenedProperties">
+				<string key="-1.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="-3.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="11.CustomClassName">SKTZoomingScrollView</string>
+				<array key="11.IBNSViewMetadataConstraints"/>
+				<string key="11.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<array key="22.IBNSViewMetadataConstraints"/>
+				<string key="22.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="23.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<array key="33.IBNSViewMetadataConstraints"/>
+				<string key="33.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<array key="34.IBNSViewMetadataConstraints"/>
+				<string key="34.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="5.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<array key="6.IBNSViewMetadataConstraints"/>
+				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+			</dictionary>
+			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
+			<nil key="activeLocalization"/>
+			<dictionary class="NSMutableDictionary" key="localizations"/>
+			<nil key="sourceID"/>
+			<int key="maxID">34</int>
+		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<object class="IBPartialClassDescription">
+					<string key="className">NSWindow</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="redo:">id</string>
+						<string key="undo:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="redo:">
+							<string key="name">redo:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="undo:">
+							<string key="name">undo:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="860324466">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">../SKTGraphicView.m</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">SKTGraphicView</string>
+					<string key="superclassName">NSView</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="alignBottomEdges:">id</string>
+						<string key="alignHorizontalCenters:">id</string>
+						<string key="alignLeftEdges:">id</string>
+						<string key="alignRightEdges:">id</string>
+						<string key="alignTopEdges:">id</string>
+						<string key="alignVerticalCenters:">id</string>
+						<string key="alignWithGrid:">id</string>
+						<string key="bringToFront:">id</string>
+						<string key="copy:">id</string>
+						<string key="cut:">id</string>
+						<string key="delete:">id</string>
+						<string key="deselectAll:">id</string>
+						<string key="makeNaturalSize:">id</string>
+						<string key="makeSameHeight:">id</string>
+						<string key="makeSameWidth:">id</string>
+						<string key="paste:">id</string>
+						<string key="sendToBack:">id</string>
+						<string key="showOrHideRulers:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="alignBottomEdges:">
+							<string key="name">alignBottomEdges:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="alignHorizontalCenters:">
+							<string key="name">alignHorizontalCenters:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="alignLeftEdges:">
+							<string key="name">alignLeftEdges:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="alignRightEdges:">
+							<string key="name">alignRightEdges:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="alignTopEdges:">
+							<string key="name">alignTopEdges:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="alignVerticalCenters:">
+							<string key="name">alignVerticalCenters:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="alignWithGrid:">
+							<string key="name">alignWithGrid:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="bringToFront:">
+							<string key="name">bringToFront:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="copy:">
+							<string key="name">copy:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="cut:">
+							<string key="name">cut:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="delete:">
+							<string key="name">delete:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="deselectAll:">
+							<string key="name">deselectAll:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="makeNaturalSize:">
+							<string key="name">makeNaturalSize:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="makeSameHeight:">
+							<string key="name">makeSameHeight:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="makeSameWidth:">
+							<string key="name">makeSameWidth:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="paste:">
+							<string key="name">paste:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="sendToBack:">
+							<string key="name">sendToBack:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="showOrHideRulers:">
+							<string key="name">showOrHideRulers:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">../SKTGraphicView.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">SKTGraphicView</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="alignBottomEdges:">id</string>
+						<string key="alignHorizontalCenters:">id</string>
+						<string key="alignLeftEdges:">id</string>
+						<string key="alignRightEdges:">id</string>
+						<string key="alignTopEdges:">id</string>
+						<string key="alignVerticalCenters:">id</string>
+						<string key="alignWithGrid:">id</string>
+						<string key="bringToFront:">id</string>
+						<string key="copy:">id</string>
+						<string key="cut:">id</string>
+						<string key="delete:">id</string>
+						<string key="deselectAll:">id</string>
+						<string key="makeNaturalSize:">id</string>
+						<string key="makeSameHeight:">id</string>
+						<string key="makeSameWidth:">id</string>
+						<string key="paste:">id</string>
+						<string key="redo:">id</string>
+						<string key="sendToBack:">id</string>
+						<string key="showOrHideRulers:">id</string>
+						<string key="undo:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="alignBottomEdges:">
+							<string key="name">alignBottomEdges:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="alignHorizontalCenters:">
+							<string key="name">alignHorizontalCenters:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="alignLeftEdges:">
+							<string key="name">alignLeftEdges:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="alignRightEdges:">
+							<string key="name">alignRightEdges:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="alignTopEdges:">
+							<string key="name">alignTopEdges:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="alignVerticalCenters:">
+							<string key="name">alignVerticalCenters:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="alignWithGrid:">
+							<string key="name">alignWithGrid:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="bringToFront:">
+							<string key="name">bringToFront:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="copy:">
+							<string key="name">copy:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="cut:">
+							<string key="name">cut:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="delete:">
+							<string key="name">delete:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="deselectAll:">
+							<string key="name">deselectAll:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="makeNaturalSize:">
+							<string key="name">makeNaturalSize:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="makeSameHeight:">
+							<string key="name">makeSameHeight:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="makeSameWidth:">
+							<string key="name">makeSameWidth:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="paste:">
+							<string key="name">paste:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="redo:">
+							<string key="name">redo:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="sendToBack:">
+							<string key="name">sendToBack:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="showOrHideRulers:">
+							<string key="name">showOrHideRulers:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="undo:">
+							<string key="name">undo:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<reference key="sourceIdentifier" ref="860324466"/>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">SKTWindowController</string>
+					<string key="superclassName">NSWindowController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="newDocumentWindow:">id</string>
+						<string key="toggleGridConstraining:">id</string>
+						<string key="toggleGridShowing:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="newDocumentWindow:">
+							<string key="name">newDocumentWindow:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="toggleGridConstraining:">
+							<string key="name">toggleGridConstraining:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="toggleGridShowing:">
+							<string key="name">toggleGridShowing:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="_graphicView">SKTGraphicView</string>
+						<string key="_graphicsController">NSArrayController</string>
+						<string key="_zoomingScrollView">SKTZoomingScrollView</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="_graphicView">
+							<string key="name">_graphicView</string>
+							<string key="candidateClassName">SKTGraphicView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="_graphicsController">
+							<string key="name">_graphicsController</string>
+							<string key="candidateClassName">NSArrayController</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="_zoomingScrollView">
+							<string key="name">_zoomingScrollView</string>
+							<string key="candidateClassName">SKTZoomingScrollView</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">../SKTWindowController.h</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">SKTWindowController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="newDocumentWindow:">id</string>
+						<string key="toggleGridConstraining:">id</string>
+						<string key="toggleGridShowing:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="newDocumentWindow:">
+							<string key="name">newDocumentWindow:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="toggleGridConstraining:">
+							<string key="name">toggleGridConstraining:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="toggleGridShowing:">
+							<string key="name">toggleGridShowing:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">../SKTWindowController.m</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">SKTZoomingScrollView</string>
+					<string key="superclassName">NSScrollView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">../SKTZoomingScrollView.h</string>
+					</object>
+				</object>
+			</array>
+		</object>
+		<int key="IBDocument.localizationMode">0</int>
+		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencies">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
+			<integer value="1040" key="NS.object.0"/>
+		</object>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.InterfaceBuilder3</string>
+			<integer value="4600" key="NS.object.0"/>
+		</object>
+		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
+		<int key="IBDocument.defaultPropertyAccessControl">3</int>
+	</data>
+	<classes>
+		<class name="IBActionInfo">
+			<fallbacks/>
+		</class>
+		<class name="IBBindingConnection">
+			<fallbacks/>
+		</class>
+		<class name="IBClassDescriber">
+			<fallbacks/>
+		</class>
+		<class name="IBClassDescriptionSource">
+			<fallbacks/>
+		</class>
+		<class name="IBConnectionRecord">
+			<fallbacks/>
+		</class>
+		<class name="IBMutableOrderedSet">
+			<fallbacks/>
+		</class>
+		<class name="IBObjectContainer">
+			<fallbacks/>
+		</class>
+		<class name="IBObjectRecord">
+			<fallbacks/>
+		</class>
+		<class name="IBOutletConnection">
+			<fallbacks/>
+		</class>
+		<class name="IBPartialClassDescription">
+			<fallbacks/>
+		</class>
+		<class name="IBToOneOutletInfo">
+			<fallbacks/>
+		</class>
+		<class name="NSArrayController">
+			<fallbacks/>
+		</class>
+		<class name="NSClipView">
+			<fallbacks/>
+		</class>
+		<class name="NSColor">
+			<fallbacks/>
+		</class>
+		<class name="NSColorSpace">
+			<fallbacks/>
+		</class>
+		<class name="NSCustomObject">
+			<fallbacks/>
+		</class>
+		<class name="NSCustomView">
+			<fallbacks/>
+		</class>
+		<class name="NSMutableData">
+			<fallbacks/>
+		</class>
+		<class name="NSMutableDictionary">
+			<fallbacks/>
+		</class>
+		<class name="NSNibBindingConnector">
+			<fallbacks/>
+		</class>
+		<class name="NSPanGestureRecognizer">
+			<fallbacks/>
+		</class>
+		<class name="NSScrollView">
+			<fallbacks/>
+		</class>
+		<class name="NSScroller">
+			<fallbacks/>
+		</class>
+		<class name="NSView">
+			<fallbacks/>
+		</class>
+		<class name="NSWindowTemplate">
+			<fallbacks/>
+		</class>
+		<class name="_NSManagedProxy">
+			<fallbacks/>
+		</class>
+	</classes>
+</archive>
