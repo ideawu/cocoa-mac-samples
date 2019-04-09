@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9059"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSWindowController">
+            <connections>
+                <outlet property="window" destination="1" id="3"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Custom SplitView" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" frameAutosaveName="custom" animationBehavior="default" id="1">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="57" y="553" width="539" height="443"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1028"/>
+            <value key="minSize" type="size" width="300" height="200"/>
+            <view key="contentView" id="2">
+                <rect key="frame" x="0.0" y="0.0" width="539" height="443"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <splitView autosaveName="customSplitSaveSize" dividerStyle="paneSplitter" id="12" customClass="MySplitView">
+                        <rect key="frame" x="20" y="20" width="499" height="403"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" id="4">
+                                <rect key="frame" x="0.0" y="0.0" width="499" height="188"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <clipView key="contentView" id="t3r-xZ-Dxo">
+                                    <rect key="frame" x="1" y="1" width="497" height="186"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textView importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" spellingCorrection="YES" smartInsertDelete="YES" id="7">
+                                            <rect key="frame" x="0.0" y="0.0" width="497" height="364"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <size key="minSize" width="497" height="186"/>
+                                            <size key="maxSize" width="529" height="10000000"/>
+                                            <attributedString key="textStorage">
+                                                <fragment>
+                                                    <mutableString key="content">The Cocoa and Cocoa Touch frameworks that power Mac OS X and iOS are tightly integrated into the Xcode development experience. Cocoa’s high-level APIs make is easy to add animation, networking, and the native platform appearance and behavior to your application with only a few lines of code.
+
+Cocoa Frameworks
+
+The Cocoa frameworks consist of libraries, APIs, and runtimes that form the development layer for all of Mac OS X. By developing with Cocoa, you will be creating applications the same way Mac OS X itself is created. Your application will automatically inherit the great behaviors and appearances of Mac OS X, with full access to the underlying power of the UNIX operating system. Using Cocoa with the Xcode IDE is simply the best way to create native Mac applications.
+
+Cocoa Uses the Model-View-Controller Design Pattern
+
+Cocoa uses the Model-View-Controller (MVC) design pattern throughout. Models encapsulate application data, Views display and edit that data, and Controllers mediate the logic between the two. By separating responsibilities in this manner, you end up with an application that is easier to design, implement, and maintain.
+The MVC pattern means that Interface Builder requires no code to be written or generated while you focus exclusively on the View of your application. Cocoa bindings on the Mac eliminate most of the glue code, making the connection between Controllers coded in Xcode and the Views designed within Interface Builder a simple matter of graphically “wiring” the two together. Interface Builder works with Cocoa to make localizing your application easy so you can quickly enter entirely new markets.</mutableString>
+                                                    <attributes>
+                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <size key="minSize" width="497" height="186"/>
+                                            <size key="maxSize" width="529" height="10000000"/>
+                                        </textView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </clipView>
+                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="6">
+                                    <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="5">
+                                    <rect key="frame" x="482" y="1" width="16" height="186"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                            <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" id="8">
+                                <rect key="frame" x="0.0" y="198" width="499" height="205"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <clipView key="contentView" id="3hs-Mi-ZFd">
+                                    <rect key="frame" x="1" y="1" width="497" height="203"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textView importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" spellingCorrection="YES" smartInsertDelete="YES" id="11">
+                                            <rect key="frame" x="0.0" y="0.0" width="497" height="364"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <size key="minSize" width="497" height="203"/>
+                                            <size key="maxSize" width="529" height="10000000"/>
+                                            <attributedString key="textStorage">
+                                                <fragment>
+                                                    <mutableString key="content">The Cocoa and Cocoa Touch frameworks that power Mac OS X and iOS are tightly integrated into the Xcode development experience. Cocoa’s high-level APIs make is easy to add animation, networking, and the native platform appearance and behavior to your application with only a few lines of code.
+
+Cocoa Frameworks
+
+The Cocoa frameworks consist of libraries, APIs, and runtimes that form the development layer for all of Mac OS X. By developing with Cocoa, you will be creating applications the same way Mac OS X itself is created. Your application will automatically inherit the great behaviors and appearances of Mac OS X, with full access to the underlying power of the UNIX operating system. Using Cocoa with the Xcode IDE is simply the best way to create native Mac applications.
+
+Cocoa Uses the Model-View-Controller Design Pattern
+
+Cocoa uses the Model-View-Controller (MVC) design pattern throughout. Models encapsulate application data, Views display and edit that data, and Controllers mediate the logic between the two. By separating responsibilities in this manner, you end up with an application that is easier to design, implement, and maintain.
+The MVC pattern means that Interface Builder requires no code to be written or generated while you focus exclusively on the View of your application. Cocoa bindings on the Mac eliminate most of the glue code, making the connection between Controllers coded in Xcode and the Views designed within Interface Builder a simple matter of graphically “wiring” the two together. Interface Builder works with Cocoa to make localizing your application easy so you can quickly enter entirely new markets.</mutableString>
+                                                    <attributes>
+                                                        <font key="NSFont" size="12" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <size key="minSize" width="497" height="203"/>
+                                            <size key="maxSize" width="529" height="10000000"/>
+                                        </textView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </clipView>
+                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="10">
+                                    <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="9">
+                                    <rect key="frame" x="482" y="1" width="16" height="203"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                        </subviews>
+                        <holdingPriorities>
+                            <real value="250"/>
+                            <real value="250"/>
+                        </holdingPriorities>
+                        <connections>
+                            <outlet property="delegate" destination="-2" id="13"/>
+                        </connections>
+                    </splitView>
+                </subviews>
+            </view>
+        </window>
+    </objects>
+</document>

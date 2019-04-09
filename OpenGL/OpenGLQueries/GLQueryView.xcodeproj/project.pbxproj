@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361EBC6218B3EBE00070FAF3 /* OutlineViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 361EBC3A18B3EBE00070FAF3 /* OutlineViewController.mm */; };
+		361EBC6418B3EBE00070FAF3 /* Text.mm in Sources */ = {isa = PBXBuildFile; fileRef = 361EBC4318B3EBE00070FAF3 /* Text.mm */; };
+		361EBC6518B3EBE00070FAF3 /* GLUQueryDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 361EBC4C18B3EBE00070FAF3 /* GLUQueryDataSource.mm */; };
+		361EBC6918B3EBE00070FAF3 /* GLUQueryRendererProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 361EBC5C18B3EBE00070FAF3 /* GLUQueryRendererProperty.mm */; };
+		361EBC6A18B3EBE00070FAF3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 361EBC5F18B3EBE00070FAF3 /* AppDelegate.mm */; };
+		361EBC6B18B3EBE00070FAF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EBC6118B3EBE00070FAF3 /* main.m */; };
+		362C8B5F18BA872D00E962D3 /* CGDisplayMode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 362C8B5E18BA872D00E962D3 /* CGDisplayMode.mm */; };
+		363A1DA518BD20C4008B5B7F /* QueryDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 363A1DA418BD20C4008B5B7F /* QueryDataSource.mm */; };
+		363A1DA918BD458A008B5B7F /* CFQueryHardwareDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 363A1DA818BD458A008B5B7F /* CFQueryHardwareDataSource.mm */; };
+		363A1DAD18BD4591008B5B7F /* CFQueryHardware.mm in Sources */ = {isa = PBXBuildFile; fileRef = 363A1DAC18BD4591008B5B7F /* CFQueryHardware.mm */; };
+		3643E2FC18A062CC009B32A3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3643E2F418A062CC009B32A3 /* Credits.rtf */; };
+		3643E2FD18A062CC009B32A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3643E2F618A062CC009B32A3 /* InfoPlist.strings */; };
+		3643E2FE18A062CC009B32A3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3643E2F818A062CC009B32A3 /* MainMenu.xib */; };
+		3690ADE118C798FB006B089F /* GLUQueryDevice.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3690ADDD18C798FB006B089F /* GLUQueryDevice.mm */; };
+		3690ADE218C798FB006B089F /* GLUQueryDevices.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3690ADE018C798FB006B089F /* GLUQueryDevices.mm */; };
+		3696C22718A8598200557759 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3696C22618A8598200557759 /* OpenCL.framework */; };
+		36B735A018A1D55F00B4CE70 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B7359F18A1D55F00B4CE70 /* OpenGL.framework */; };
+		36E8064B18B7DB4C0066D631 /* GLUQueryRenderers.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36E8064A18B7DB4C0066D631 /* GLUQueryRenderers.mm */; };
+		36F2683218BBF197007E2090 /* CGDisplayModes.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36F2683118BBF197007E2090 /* CGDisplayModes.mm */; };
+		36F2683618BC0502007E2090 /* CGDisplayList.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36F2683518BC0502007E2090 /* CGDisplayList.mm */; };
+		36F5DB8E18BE654C0068865C /* CGDisplaysDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36F5DB8D18BE654C0068865C /* CGDisplaysDataSource.mm */; };
+		E24A4A3D153CA13500B821CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24A4A3C153CA13500B821CF /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		361EBC3918B3EBE00070FAF3 /* OutlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutlineViewController.h; sourceTree = "<group>"; };
+		361EBC3A18B3EBE00070FAF3 /* OutlineViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OutlineViewController.mm; sourceTree = "<group>"; };
+		361EBC4218B3EBE00070FAF3 /* Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
+		361EBC4318B3EBE00070FAF3 /* Text.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Text.mm; sourceTree = "<group>"; };
+		361EBC4618B3EBE00070FAF3 /* GLContainers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLContainers.h; sourceTree = "<group>"; };
+		361EBC4918B3EBE00070FAF3 /* GLUQueryConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUQueryConstants.h; sourceTree = "<group>"; };
+		361EBC4B18B3EBE00070FAF3 /* GLUQueryDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUQueryDataSource.h; sourceTree = "<group>"; };
+		361EBC4C18B3EBE00070FAF3 /* GLUQueryDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLUQueryDataSource.mm; sourceTree = "<group>"; };
+		361EBC5918B3EBE00070FAF3 /* GLUQueryRendererPropertyNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUQueryRendererPropertyNames.h; sourceTree = "<group>"; };
+		361EBC5B18B3EBE00070FAF3 /* GLUQueryRendererProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUQueryRendererProperty.h; sourceTree = "<group>"; };
+		361EBC5C18B3EBE00070FAF3 /* GLUQueryRendererProperty.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLUQueryRendererProperty.mm; sourceTree = "<group>"; };
+		361EBC5E18B3EBE00070FAF3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		361EBC5F18B3EBE00070FAF3 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		361EBC6118B3EBE00070FAF3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		362C8B5D18BA872D00E962D3 /* CGDisplayMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDisplayMode.h; sourceTree = "<group>"; };
+		362C8B5E18BA872D00E962D3 /* CGDisplayMode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CGDisplayMode.mm; sourceTree = "<group>"; };
+		363A1DA318BD20C4008B5B7F /* QueryDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryDataSource.h; sourceTree = "<group>"; };
+		363A1DA418BD20C4008B5B7F /* QueryDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QueryDataSource.mm; sourceTree = "<group>"; };
+		363A1DA718BD458A008B5B7F /* CFQueryHardwareDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFQueryHardwareDataSource.h; sourceTree = "<group>"; };
+		363A1DA818BD458A008B5B7F /* CFQueryHardwareDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CFQueryHardwareDataSource.mm; sourceTree = "<group>"; };
+		363A1DAB18BD4591008B5B7F /* CFQueryHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFQueryHardware.h; sourceTree = "<group>"; };
+		363A1DAC18BD4591008B5B7F /* CFQueryHardware.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CFQueryHardware.mm; sourceTree = "<group>"; };
+		3643E2F518A062CC009B32A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3643E2F718A062CC009B32A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3643E2F918A062CC009B32A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3643E2FA18A062CC009B32A3 /* OpenGLQueryView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OpenGLQueryView-Info.plist"; sourceTree = "<group>"; };
+		3643E2FB18A062CC009B32A3 /* OpenGLQueryView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenGLQueryView-Prefix.pch"; sourceTree = "<group>"; };
+		3690ADDC18C798FB006B089F /* GLUQueryDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUQueryDevice.h; sourceTree = "<group>"; };
+		3690ADDD18C798FB006B089F /* GLUQueryDevice.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLUQueryDevice.mm; sourceTree = "<group>"; };
+		3690ADDF18C798FB006B089F /* GLUQueryDevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUQueryDevices.h; sourceTree = "<group>"; };
+		3690ADE018C798FB006B089F /* GLUQueryDevices.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLUQueryDevices.mm; sourceTree = "<group>"; };
+		3696C22618A8598200557759 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+		36B7359F18A1D55F00B4CE70 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		36E8064918B7DB4C0066D631 /* GLUQueryRenderers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUQueryRenderers.h; sourceTree = "<group>"; };
+		36E8064A18B7DB4C0066D631 /* GLUQueryRenderers.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLUQueryRenderers.mm; sourceTree = "<group>"; };
+		36F2683018BBF197007E2090 /* CGDisplayModes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDisplayModes.h; sourceTree = "<group>"; };
+		36F2683118BBF197007E2090 /* CGDisplayModes.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CGDisplayModes.mm; sourceTree = "<group>"; };
+		36F2683418BC0502007E2090 /* CGDisplayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDisplayList.h; sourceTree = "<group>"; };
+		36F2683518BC0502007E2090 /* CGDisplayList.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CGDisplayList.mm; sourceTree = "<group>"; };
+		36F5DB8C18BE654C0068865C /* CGDisplaysDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDisplaysDataSource.h; sourceTree = "<group>"; };
+		36F5DB8D18BE654C0068865C /* CGDisplaysDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CGDisplaysDataSource.mm; sourceTree = "<group>"; };
+		E24A4A38153CA13500B821CF /* GLQueryView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLQueryView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24A4A3C153CA13500B821CF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E24A4A3F153CA13500B821CF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E24A4A41153CA13500B821CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E24A4A35153CA13500B821CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24A4A3D153CA13500B821CF /* Cocoa.framework in Frameworks */,
+				36B735A018A1D55F00B4CE70 /* OpenGL.framework in Frameworks */,
+				3696C22718A8598200557759 /* OpenCL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		361EBC3618B3EBE00070FAF3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				361EBC3718B3EBE00070FAF3 /* Frameworks */,
+				361EBC6018B3EBE00070FAF3 /* Main */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		361EBC3718B3EBE00070FAF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				361EBC3B18B3EBE00070FAF3 /* Model */,
+				361EBC5D18B3EBE00070FAF3 /* View */,
+				361EBC3818B3EBE00070FAF3 /* Controller */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		361EBC3818B3EBE00070FAF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				361EBC3918B3EBE00070FAF3 /* OutlineViewController.h */,
+				361EBC3A18B3EBE00070FAF3 /* OutlineViewController.mm */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		361EBC3B18B3EBE00070FAF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				361EBC3C18B3EBE00070FAF3 /* Foundation */,
+				362C8B5218BA847900E962D3 /* Graphics */,
+				361EBC4418B3EBE00070FAF3 /* OpenGL */,
+				363A1DA218BD20C4008B5B7F /* Query */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		361EBC3C18B3EBE00070FAF3 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				361EBC3D18B3EBE00070FAF3 /* Query */,
+				361EBC4118B3EBE00070FAF3 /* Text */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		361EBC3D18B3EBE00070FAF3 /* Query */ = {
+			isa = PBXGroup;
+			children = (
+				361EBC3E18B3EBE00070FAF3 /* Hardware */,
+			);
+			path = Query;
+			sourceTree = "<group>";
+		};
+		361EBC3E18B3EBE00070FAF3 /* Hardware */ = {
+			isa = PBXGroup;
+			children = (
+				363A1DAA18BD4591008B5B7F /* Core */,
+				363A1DA618BD458A008B5B7F /* Data */,
+			);
+			path = Hardware;
+			sourceTree = "<group>";
+		};
+		361EBC4118B3EBE00070FAF3 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				361EBC4218B3EBE00070FAF3 /* Text.h */,
+				361EBC4318B3EBE00070FAF3 /* Text.mm */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		361EBC4418B3EBE00070FAF3 /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				361EBC4518B3EBE00070FAF3 /* Containers */,
+				361EBC4718B3EBE00070FAF3 /* Query */,
+			);
+			path = OpenGL;
+			sourceTree = "<group>";
+		};
+		361EBC4518B3EBE00070FAF3 /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				361EBC4618B3EBE00070FAF3 /* GLContainers.h */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+		361EBC4718B3EBE00070FAF3 /* Query */ = {
+			isa = PBXGroup;
+			children = (
+				361EBC4818B3EBE00070FAF3 /* Constants */,
+				361EBC4A18B3EBE00070FAF3 /* Data */,
+				3690ADDA18C798FB006B089F /* Devices */,
+				361EBC5718B3EBE00070FAF3 /* Properties */,
+				36E8064818B7DB4C0066D631 /* Renderers */,
+			);
+			path = Query;
+			sourceTree = "<group>";
+		};
+		361EBC4818B3EBE00070FAF3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				361EBC4918B3EBE00070FAF3 /* GLUQueryConstants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		361EBC4A18B3EBE00070FAF3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				361EBC4B18B3EBE00070FAF3 /* GLUQueryDataSource.h */,
+				361EBC4C18B3EBE00070FAF3 /* GLUQueryDataSource.mm */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		361EBC5718B3EBE00070FAF3 /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				361EBC5818B3EBE00070FAF3 /* Names */,
+				361EBC5A18B3EBE00070FAF3 /* Table */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		361EBC5818B3EBE00070FAF3 /* Names */ = {
+			isa = PBXGroup;
+			children = (
+				361EBC5918B3EBE00070FAF3 /* GLUQueryRendererPropertyNames.h */,
+			);
+			path = Names;
+			sourceTree = "<group>";
+		};
+		361EBC5A18B3EBE00070FAF3 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				361EBC5B18B3EBE00070FAF3 /* GLUQueryRendererProperty.h */,
+				361EBC5C18B3EBE00070FAF3 /* GLUQueryRendererProperty.mm */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		361EBC5D18B3EBE00070FAF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				361EBC5E18B3EBE00070FAF3 /* AppDelegate.h */,
+				361EBC5F18B3EBE00070FAF3 /* AppDelegate.mm */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		361EBC6018B3EBE00070FAF3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				361EBC6118B3EBE00070FAF3 /* main.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		362C8B5218BA847900E962D3 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				362C8B5B18BA872D00E962D3 /* Displays */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		362C8B5B18BA872D00E962D3 /* Displays */ = {
+			isa = PBXGroup;
+			children = (
+				36F5DB8B18BE65250068865C /* Data */,
+				36F2683318BC0502007E2090 /* List */,
+				362C8B5C18BA872D00E962D3 /* Mode */,
+				36F2682F18BBF197007E2090 /* Modes */,
+			);
+			path = Displays;
+			sourceTree = "<group>";
+		};
+		362C8B5C18BA872D00E962D3 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				362C8B5D18BA872D00E962D3 /* CGDisplayMode.h */,
+				362C8B5E18BA872D00E962D3 /* CGDisplayMode.mm */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		363A1DA218BD20C4008B5B7F /* Query */ = {
+			isa = PBXGroup;
+			children = (
+				363A1DA318BD20C4008B5B7F /* QueryDataSource.h */,
+				363A1DA418BD20C4008B5B7F /* QueryDataSource.mm */,
+			);
+			path = Query;
+			sourceTree = "<group>";
+		};
+		363A1DA618BD458A008B5B7F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				363A1DA718BD458A008B5B7F /* CFQueryHardwareDataSource.h */,
+				363A1DA818BD458A008B5B7F /* CFQueryHardwareDataSource.mm */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		363A1DAA18BD4591008B5B7F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				363A1DAB18BD4591008B5B7F /* CFQueryHardware.h */,
+				363A1DAC18BD4591008B5B7F /* CFQueryHardware.mm */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3643E2F318A062CC009B32A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3643E2F418A062CC009B32A3 /* Credits.rtf */,
+				3643E2F618A062CC009B32A3 /* InfoPlist.strings */,
+				3643E2F818A062CC009B32A3 /* MainMenu.xib */,
+				3643E2FA18A062CC009B32A3 /* OpenGLQueryView-Info.plist */,
+				3643E2FB18A062CC009B32A3 /* OpenGLQueryView-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3690ADDA18C798FB006B089F /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				3690ADDB18C798FB006B089F /* Base */,
+				3690ADDE18C798FB006B089F /* Mediator */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		3690ADDB18C798FB006B089F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3690ADDC18C798FB006B089F /* GLUQueryDevice.h */,
+				3690ADDD18C798FB006B089F /* GLUQueryDevice.mm */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3690ADDE18C798FB006B089F /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				3690ADDF18C798FB006B089F /* GLUQueryDevices.h */,
+				3690ADE018C798FB006B089F /* GLUQueryDevices.mm */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		36E8064818B7DB4C0066D631 /* Renderers */ = {
+			isa = PBXGroup;
+			children = (
+				36E8064918B7DB4C0066D631 /* GLUQueryRenderers.h */,
+				36E8064A18B7DB4C0066D631 /* GLUQueryRenderers.mm */,
+			);
+			path = Renderers;
+			sourceTree = "<group>";
+		};
+		36F2682F18BBF197007E2090 /* Modes */ = {
+			isa = PBXGroup;
+			children = (
+				36F2683018BBF197007E2090 /* CGDisplayModes.h */,
+				36F2683118BBF197007E2090 /* CGDisplayModes.mm */,
+			);
+			path = Modes;
+			sourceTree = "<group>";
+		};
+		36F2683318BC0502007E2090 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				36F2683418BC0502007E2090 /* CGDisplayList.h */,
+				36F2683518BC0502007E2090 /* CGDisplayList.mm */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		36F5DB8B18BE65250068865C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				36F5DB8C18BE654C0068865C /* CGDisplaysDataSource.h */,
+				36F5DB8D18BE654C0068865C /* CGDisplaysDataSource.mm */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E24A4A2D153CA13400B821CF = {
+			isa = PBXGroup;
+			children = (
+				361EBC3618B3EBE00070FAF3 /* Sources */,
+				3643E2F318A062CC009B32A3 /* Supporting Files */,
+				E24A4A3B153CA13500B821CF /* Frameworks */,
+				E24A4A39153CA13500B821CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E24A4A39153CA13500B821CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E24A4A38153CA13500B821CF /* GLQueryView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E24A4A3B153CA13500B821CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E24A4A3F153CA13500B821CF /* AppKit.framework */,
+				E24A4A3C153CA13500B821CF /* Cocoa.framework */,
+				E24A4A41153CA13500B821CF /* Foundation.framework */,
+				3696C22618A8598200557759 /* OpenCL.framework */,
+				36B7359F18A1D55F00B4CE70 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E24A4A37153CA13500B821CF /* GLQueryView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E24A4A56153CA13500B821CF /* Build configuration list for PBXNativeTarget "GLQueryView" */;
+			buildPhases = (
+				E24A4A34153CA13500B821CF /* Sources */,
+				E24A4A35153CA13500B821CF /* Frameworks */,
+				E24A4A36153CA13500B821CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLQueryView;
+			productName = NSOutlineView_Simple_Two_Dictionaries;
+			productReference = E24A4A38153CA13500B821CF /* GLQueryView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E24A4A2F153CA13400B821CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Apple Inc.";
+			};
+			buildConfigurationList = E24A4A32153CA13400B821CF /* Build configuration list for PBXProject "GLQueryView" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E24A4A2D153CA13400B821CF;
+			productRefGroup = E24A4A39153CA13500B821CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E24A4A37153CA13500B821CF /* GLQueryView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E24A4A36153CA13500B821CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3643E2FC18A062CC009B32A3 /* Credits.rtf in Resources */,
+				3643E2FD18A062CC009B32A3 /* InfoPlist.strings in Resources */,
+				3643E2FE18A062CC009B32A3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E24A4A34153CA13500B821CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361EBC6B18B3EBE00070FAF3 /* main.m in Sources */,
+				363A1DAD18BD4591008B5B7F /* CFQueryHardware.mm in Sources */,
+				361EBC6218B3EBE00070FAF3 /* OutlineViewController.mm in Sources */,
+				362C8B5F18BA872D00E962D3 /* CGDisplayMode.mm in Sources */,
+				36F2683218BBF197007E2090 /* CGDisplayModes.mm in Sources */,
+				36E8064B18B7DB4C0066D631 /* GLUQueryRenderers.mm in Sources */,
+				363A1DA518BD20C4008B5B7F /* QueryDataSource.mm in Sources */,
+				361EBC6A18B3EBE00070FAF3 /* AppDelegate.mm in Sources */,
+				361EBC6518B3EBE00070FAF3 /* GLUQueryDataSource.mm in Sources */,
+				363A1DA918BD458A008B5B7F /* CFQueryHardwareDataSource.mm in Sources */,
+				3690ADE118C798FB006B089F /* GLUQueryDevice.mm in Sources */,
+				3690ADE218C798FB006B089F /* GLUQueryDevices.mm in Sources */,
+				36F2683618BC0502007E2090 /* CGDisplayList.mm in Sources */,
+				361EBC6918B3EBE00070FAF3 /* GLUQueryRendererProperty.mm in Sources */,
+				361EBC6418B3EBE00070FAF3 /* Text.mm in Sources */,
+				36F5DB8E18BE654C0068865C /* CGDisplaysDataSource.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3643E2F418A062CC009B32A3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3643E2F518A062CC009B32A3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3643E2F618A062CC009B32A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3643E2F718A062CC009B32A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3643E2F818A062CC009B32A3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3643E2F918A062CC009B32A3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E24A4A54153CA13500B821CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LINKER_DISPLAYS_MANGLED_NAMES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		E24A4A55153CA13500B821CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		E24A4A57153CA13500B821CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting Files/OpenGLQueryView-Prefix.pch";
+				INFOPLIST_FILE = "Supporting Files/OpenGLQueryView-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E24A4A58153CA13500B821CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting Files/OpenGLQueryView-Prefix.pch";
+				INFOPLIST_FILE = "Supporting Files/OpenGLQueryView-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E24A4A32153CA13400B821CF /* Build configuration list for PBXProject "GLQueryView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24A4A54153CA13500B821CF /* Debug */,
+				E24A4A55153CA13500B821CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E24A4A56153CA13500B821CF /* Build configuration list for PBXNativeTarget "GLQueryView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24A4A57153CA13500B821CF /* Debug */,
+				E24A4A58153CA13500B821CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E24A4A2F153CA13400B821CF /* Project object */;
+}
