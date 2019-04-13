@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/edford/src/Sample Code/dts_sc1859_dotviewundo-3-0/DotViewUndo.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>
