@@ -2,6 +2,7 @@
 *.swp
 *.xcuserstate
 *.xcuserdatad
+*.app
 build/
 xcuserdata
 UserInterfaceState.xcuserstate
