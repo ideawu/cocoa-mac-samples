@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <capability name="box content view" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner">
+            <connections>
+                <outlet property="lightTableView" destination="100021" id="100039"/>
+                <outlet property="slidesArrayController" destination="100035" id="100040"/>
+                <outlet property="toolsView" destination="100025" id="100034"/>
+                <outlet property="window" destination="5" id="18"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="5" userLabel="Window">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="40" y="285" width="941" height="578"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <value key="minSize" type="size" width="941" height="578"/>
+            <view key="contentView" wantsLayer="YES" id="6">
+                <rect key="frame" x="0.0" y="0.0" width="941" height="578"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <customView wantsLayer="YES" id="100021" customClass="LTView">
+                        <rect key="frame" x="0.0" y="0.0" width="941" height="578"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </customView>
+                    <box autoresizesSubviews="NO" wantsLayer="YES" boxType="custom" borderType="line" title="Box" titlePosition="noTitle" id="100025">
+                        <rect key="frame" x="-5" y="-3" width="202" height="584"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                        <view key="contentView" id="Sr0-mq-bVw">
+                            <rect key="frame" x="1" y="1" width="200" height="582"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <slider verticalHuggingPriority="750" id="100026">
+                                    <rect key="frame" x="37" y="506" width="149" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <sliderCell key="cell" continuous="YES" alignment="left" maxValue="15" doubleValue="14.942307692307693" tickMarkPosition="below" numberOfTickMarks="16" sliderType="linear" id="100027"/>
+                                    <connections>
+                                        <binding destination="100035" name="value" keyPath="selection.frameThickness" id="100046"/>
+                                    </connections>
+                                </slider>
+                                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="100028">
+                                    <rect key="frame" x="24" y="538" width="110" height="17"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Frame Thickness" id="100029">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <slider verticalHuggingPriority="750" id="100030">
+                                    <rect key="frame" x="35" y="427" width="149" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <sliderCell key="cell" continuous="YES" state="on" alignment="left" maxValue="50" doubleValue="15" tickMarkPosition="below" numberOfTickMarks="10" sliderType="linear" id="100033"/>
+                                    <connections>
+                                        <binding destination="100035" name="value" keyPath="selection.cornerRadius" id="100044"/>
+                                    </connections>
+                                </slider>
+                                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="100031">
+                                    <rect key="frame" x="24" y="459" width="110" height="17"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Corner Radius" drawsBackground="YES" id="100032">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" red="0.83921568629999999" green="0.86666666670000003" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                    </textFieldCell>
+                                </textField>
+                            </subviews>
+                        </view>
+                        <color key="fillColor" red="0.83921568629999999" green="0.86666666670000003" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                    </box>
+                </subviews>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="17"/>
+            </connections>
+        </window>
+        <customObject id="-3" userLabel="Application"/>
+        <arrayController mode="entity" entityName="slide" automaticallyPreparesContent="YES" avoidsEmptySelection="NO" id="100035" userLabel="SlidesController">
+            <declaredKeys>
+                <string>frameThickness</string>
+                <string>cornerRadus</string>
+                <string>cornerRadius</string>
+            </declaredKeys>
+            <connections>
+                <binding destination="-2" name="managedObjectContext" keyPath="document.managedObjectContext" id="100038"/>
+            </connections>
+        </arrayController>
+    </objects>
+</document>
